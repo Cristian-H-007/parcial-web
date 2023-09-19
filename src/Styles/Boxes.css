@@ -1,0 +1,19 @@
+.main-boxes{
+border:solid brown;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 3  ;
+    gap: 16px;
+}
+
+.imagenes{
+    width: 220px;
+    height: auto;
+}
+
+.precio{
+    color: green;
+}
